@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rupantor — রূপান্তর · Multilingual Semantic Converter</title>
+    <meta name="theme-color" content="#06040b" />
+    <meta
+      name="description"
+      content="Convert text across Bengali, Banglish and English — plus five semantic tones — in a single Gemini call."
+    />
+    <script>
+      try {
+        if (localStorage.getItem("rupantor:theme") === "light") {
+          document.documentElement.dataset.theme = "light";
+          document.documentElement.style.background = "#f4f1fb";
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute("content", "#f4f1fb");
+        }
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html { background: #06040b; }
+      html[data-theme="light"] { background: #f4f1fb; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
