@@ -34,7 +34,7 @@ Rupantor bridges language barriers by converting text across three languages wit
 ## 🚀 Deployment
 
 <p style="background: #1e293b; padding: 12px; border-radius: 8; margin: 16px 0;">
-  <strong>Live Demo:</strong> <a href="https://rupantorai.vercel.app" style="color: #a78bfa; text-decoration: none;">https://rupantor.vercel.app</a> |
+  <strong>Live Demo:</strong> <a href="https://rupantorai.vercel.app" style="color: #a78bfa; text-decoration: none;">https://rupantorai.vercel.app</a> |
   <strong>Platform:</strong> Vercel
 </p>
 
